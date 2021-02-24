@@ -16,8 +16,9 @@ body {
 .p-profile{ 
 border-radius: 10px;
 width: 300px;
-
-margin:0% 0% 15% 500px;
+margin-left:520px; 
+margin-top: 100px;
+margin-bottom: 100px;
 
 
 /* glassmorphism */
@@ -65,25 +66,52 @@ li{
 	color: rgba(161, 158, 158, 0.877)
 }
 
-
-/* media query helps with the responsiveness with other devices so google it */
-/* @media screen() {
-.p-profile{
-	margin: 0px;
-} */
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
+hr{
+color:  rgba(161, 158, 158, 0.877);
 }
- .attribution { font-size: 11px; 
-	
+
+
+
+
+	/* .attribution { 
+position: relative;
+top: 600px;
+right:500px;
+	} */
+
   }
+
+
+	.p-profile{
+		margin-right:600px;
+	}
+}
+
+ .attribution { font-size: 11px;
+ /* float: relative; 
+ bottom:500px; */
+	
+  /* }
     .attribution a { color: hsl(228, 45%, 44%);
 		text-decoration: none;
 		color:black;
 		 }
 		 .attribution a:hover{
-			 color: rgb(178, 34, 214);
+			 color: rgb(178, 34, 214); */
 		 }
+
+		 /* media query helps with the responsiveness with other devices so google it */
+/* @media screen and () {
+.p-profile{
+	margin: 0px;
+} */
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  .p-profile{
+		margin-top:10px;
+		 
+	 position:relative;
+	
+	 right: 500px;
+	 
+	}
